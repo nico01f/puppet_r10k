@@ -1,0 +1,12 @@
+---
+:hierarchy:
+  - "nodes/%{::fqdn}"
+  - "services/%{::hostname}"
+  - "services/%{domain}"
+  - "roles/%{::role}"
+  - users
+  - common
+:backends:
+  - yaml
+:yaml:
+  :datadir: /etc/puppet/hieradata
