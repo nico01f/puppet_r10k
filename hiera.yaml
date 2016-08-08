@@ -1,8 +1,9 @@
 ---
 :hierarchy:
   - "nodes/%{::fqdn}"
-  - "services/%{::hostname}"
-  - "services/%{domain}"
+  - "datacenters/%{::dc}"
+  - "applications/%{::hostname}"
+  - "applications/%{domain}"
   - "roles/%{::role}"
   - users
   - common

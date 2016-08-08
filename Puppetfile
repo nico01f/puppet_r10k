@@ -12,6 +12,5 @@ mod 'puppetlabs/apt', '2.1.0'
 mod 'saz/resolv_conf', '3.0.5'
 mod 'camptocamp/augeas', '1.4.2'
 mod 'puppetlabs/vcsrepo', '1.3.0'
-mod 'puppetlabs/epel', 1.2.2
-
-
+mod 'puppetlabs/epel', '1.2.2'
+mod 'puppetlabs/haproxy', '1.5.0'
